@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Noto+Color+Emoji&family=Playfair+Display:wght@400;700&family=Reenie+Beanie&display=swap');
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 :root {
 
   --text: #fcf9f9;
@@ -44,6 +48,7 @@
 body {
   margin: 0;
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 
@@ -127,7 +132,7 @@ body {
 .navbar {
   display: flex;
   justify-content: center;
-  gap: 12em;
+  gap: 4vw;
   margin: 2em 0;
   width: 100%;
 }
@@ -204,6 +209,7 @@ main {
   text-align: justify;
   word-spacing: -0.4em;
   font-size: 1em;
+  max-width: 70dvw;
 }
 
 .catering img {
@@ -373,6 +379,10 @@ footer p {
   .Textbox, .Picbox { 
     width: 100%;
     max-width: 100%; 
+    letter-spacing: 0;
+  }
+
+  .catering-text {
     letter-spacing: 0;
   }
 
