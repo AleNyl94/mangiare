@@ -2,8 +2,8 @@
 
 :root {
 
-  --text: #f8f6f6;
-  --text-h: #f8f8f8;
+  --text: #fcf9f9;
+  --text-h: #fcf9f9;
   --bg: #252f4b;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
@@ -202,9 +202,8 @@ main {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  word-spacing: -0.1em;
+  word-spacing: -0.4em;
   font-size: 1em;
-  gap: 2px;
 }
 
 .catering img {
