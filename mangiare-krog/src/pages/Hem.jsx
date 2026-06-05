@@ -14,7 +14,7 @@ export default function Home({ t }) {
       </div>
     </div>
     <div className="button-container">
-      <button onClick={() => window.open('/meny.pdf', '_blank')} className="mail-link">
+      <button onClick={() => window.open(t.menupage, '_blank')} className="mail-link">
         {t.menu}
       </button>
     </div>

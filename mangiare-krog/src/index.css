@@ -207,9 +207,10 @@ main {
   display: flex;
   flex-direction: column;
   text-align: justify;
-  word-spacing: -0.4em;
+  letter-spacing: -1px;
   font-size: 1em;
   max-width: 70dvw;
+
 }
 
 .catering img {
@@ -219,9 +220,10 @@ main {
   border-radius: 8px;
 }
 .catering-includes ul {
+  text-align: center;
   list-style: none;
   font-family: var(--sans);
-  gap: 5em;
+  justify-content: center;
 }
 
 .contact {
@@ -376,11 +378,12 @@ footer p {
     height: auto;
   }
 
-  .Textbox, .Picbox { 
+  .Textbox, .Picbox {
     width: 100%;
     max-width: 100%; 
     letter-spacing: 0;
   }
+  
 
   .catering-text {
     letter-spacing: 0;

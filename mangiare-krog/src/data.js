@@ -10,7 +10,7 @@ export const translations = {
     aboutText3: "Kom som du är, stanna så länge du vill och bli en del av vår restaurang!",
     cateringText: "Vi erbjuder fullservicecatering där upplägget och priset skräddarsys helt efter era önskemål och sällskapets storlek.",
     cateringText2: "Välj bland våra färdiga koncept som sträcker sig från generösa bufféförslag till eleganta trerättersmenyer eller låt oss komponera en helt unik meny utifrån dina egna idéer.",
-    cateringText3: "Oavsett om ni planerar en privat fest, en AW med kollegorna, studentmottagning eller ett större företagsevent, ser vi till att maten blir en succé. Kontakta oss för en offert",
+    cateringText3: "Oavsett om ni planerar en privat fest, en AW med kollegorna, studentmottagning eller ett större företagsevent, ser vi till att maten blir en succé.",
     cateringText4: "I vår fullservicecatering kan följande ingå:" , 
     cateringText5: "Porslin, glas och bestick.", 
     cateringText6:"Professionell serveringspersonal.",
@@ -26,7 +26,8 @@ export const translations = {
     hours: "Öppettider",
     hoursText: "Alla dagar 11:00-23:00",
     partners: "Samarbetspartners",
-    menu: "Meny"
+    menu: "Meny",
+    menupage: '/meny.pdf#page=1'
   },
   en: {
     heroTitle: "Mangiare",
@@ -39,7 +40,7 @@ export const translations = {
     aboutText3: "Come as you are, stay as long as you like, and become a part of our restaurant.",
     cateringText: "We offer full-service catering where the setup and price are tailored entirely to your wishes and the size of your group.",
     cateringText2: "Choose from our ready-made concepts, ranging from generous buffet options to elegant three-course menus, or let us compose a completely unique menu based on your own ideas.",
-    cateringText3: "Whether you are planning a private party, an after-work event with colleagues, a graduation, or a larger corporate function, we ensure the food is a success. Contact us for a quote.",
+    cateringText3: "Whether you are planning a private party, an after-work event with colleagues, a graduation, or a larger corporate function, we ensure the food is a success.",
     cateringText4: "Our full-service catering can include:",
     cateringText5: "Tableware, glasses, and cutlery.",
     cateringText6: "Professional waitstaff.",
@@ -55,6 +56,7 @@ export const translations = {
     hours: "Opening Hours",
     hoursText: "All days 11:00-23:00",
     partners: "Partners",
-    menu: "Menu"
+    menu: "Menu",
+    menupage: '/meny.pdf#page=7'
   }
 };
