@@ -145,7 +145,27 @@
       }
 
       .menu-page {
-        padding: 40px 0;
+        padding: 20px 0;
+      }
+
+      .page-break {
+        break-before: page !important;
+        page-break-before: always !important;
+      }
+
+      .menu-item {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+      }
+
+      .menu-section-title {
+        break-after: avoid !important;
+        page-break-after: avoid !important;
+      }
+
+      .menu-section {
+        break-inside: avoid;
+        page-break-inside: avoid;
       }
     }
   </style>
@@ -219,6 +239,17 @@
         </div>
         <div class="menu-item-description">
           Halloumi, bröd, husets dressing, sallad och silverlök.
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Mangiares köttbullar</span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">169 kr</span>
+        </div>
+        <div class="menu-item-description">
+          Klassiska köttbullar, kokad potatis, gräddsås med pressgurka och rårörda lingon.
         </div>
       </div>
 
@@ -393,7 +424,7 @@
           <span class="menu-item-price">97 kr</span>
         </div>
         <div class="menu-item-description">
-          Serveras med friska bär och vispgrädde.
+          Serveras med färska bär och vispgrädde.
         </div>
       </div>
     </div>
@@ -697,6 +728,17 @@
         </div>
         <div class="menu-item-description">
           100g smash burger served with bun, lettuce, silver onion, cheese, and house dressing. <br><em>Optional: Extra meat 100g – 35 kr.</em>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Mangiare's meatballs</span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">169 kr</span>
+        </div>
+        <div class="menu-item-description">
+          Classic swedish meatballs, potatoes, gravy, pickled cucumber and lingonberries
         </div>
       </div>
 
@@ -1124,9 +1166,6 @@
           <span class="menu-item-price">59 kr</span>
         </div>
       </div>
-    </div>
-  </div>
-
 </body>
 
 </html>

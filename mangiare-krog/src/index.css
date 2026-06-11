@@ -204,13 +204,11 @@ main {
 }
 
 .catering-text {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
+  width: 100%;
+  max-width: 500px;
+  font-family: var(--sans);
   letter-spacing: -1px;
-  font-size: 1em;
-  max-width: 70dvw;
-
+  color: var(--text);
 }
 
 .catering img {
@@ -379,6 +377,7 @@ footer p {
   }
 
   .Textbox, .Picbox {
+    text-align: center;
     width: 100%;
     max-width: 100%; 
     letter-spacing: 0;
@@ -386,6 +385,7 @@ footer p {
   
 
   .catering-text {
+    text-align: center;
     letter-spacing: 0;
   }
 
@@ -404,8 +404,7 @@ footer p {
   }
 
   .Textbox p {
-    text-align: center;
-    word-spacing: 0;
+    text-align: justify;
   }
 
   .menu-btn {

@@ -57,6 +57,6 @@ export const translations = {
     hoursText: "All days 11:00-23:00",
     partners: "Partners",
     menu: "Menu",
-    menupage: '/meny.pdf#page=7'
+    menupage: '/meny.pdf#page=8'
   }
 };
