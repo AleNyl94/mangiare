@@ -10,7 +10,7 @@ export default function Catering({ t }) {
       </div>
       <img src={mat} alt="Pasta" />
       <div className="catering-includes">
-        <p>{t.cateringText4}</p>
+        <h3>{t.cateringText4}</h3>
         <ul>
           <li>{t.cateringText5}</li>
           <li>{t.cateringText6}</li>
