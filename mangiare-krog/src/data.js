@@ -55,8 +55,8 @@ export const translations = {
     findUsText: "Drop by and see us at Solviksvägen 2C, Gävle",
     address: "Address",
     hours: "Opening Hours",
-    hoursText1: "Wednesday - Saturday 11:00-23:00",
-    hoursText2: "Sunday - Tuesday 11:00 - 21:00",
+    hoursText1: "Wednesday-Saturday 11:00-23:00",
+    hoursText2: "Sunday-Tuesday 11:00 - 21:00",
     partners: "Partners",
     menu: "Menu",
     menupage: '/meny.pdf#page=8'

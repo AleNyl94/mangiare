@@ -169,15 +169,17 @@ main {
 }
 .Textbox {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   font-family: var(--sans);
   letter-spacing: -1px;
   color: var(--text);
 }
 .Textbox p {
   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
   margin-bottom: 1em;
-  word-spacing: -0.1em;
+  word-spacing: -0.2em;
   font-size: 1em;
 }
 .Picbox img {
@@ -321,7 +323,7 @@ footer p {
 .footbox {
   display: flex;
   flex-direction: column;
-  max-width: 20dvw;
+  max-width: 25dvw;
 }
 
 .social-icons {
