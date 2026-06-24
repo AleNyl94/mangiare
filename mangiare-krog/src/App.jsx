@@ -46,7 +46,8 @@ const Layout = ({ lang, setLang, t }) => (
         </div>
         <div className="footbox">
           <h3>{t.hours}</h3>
-          <p>{t.hoursText}</p>
+          <p>{t.hoursText1}</p>
+          <p>{t.hoursText2}</p>
         </div>
         <div className="footbox">
           <h3>{t.partners}</h3>
