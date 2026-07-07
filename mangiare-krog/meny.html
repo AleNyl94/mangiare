@@ -144,10 +144,6 @@
         print-color-adjust: exact;
       }
 
-      .menu-page {
-        padding: 20px 0;
-      }
-
       .page-break {
         break-before: page !important;
         page-break-before: always !important;
@@ -166,6 +162,15 @@
       .menu-section {
         break-inside: avoid;
         page-break-inside: avoid;
+      }
+
+      .menu-page {
+        padding: 0;
+      }
+
+      @page {
+        margin-top: 4cm;
+        margin-bottom: 1cm;
       }
     }
   </style>
@@ -213,7 +218,7 @@
         <div class="menu-item-header">
           <span class="menu-item-name">Klassisk Caesarsallad</span>
           <span class="menu-item-dots"></span>
-          <span class="menu-item-price">Kyckling 175 kr / Räkor 189 kr/ Haloumi 175 kr</span>
+          <span class="menu-item-price">Kyckling 175 kr / Räkor 189 kr/ Halloumi 175 kr</span>
         </div>
         <div class="menu-item-description">
           Romansallad, caesardressing, bacon, brödkrutonger, parmesan och ditt val av protein.
@@ -227,7 +232,7 @@
           <span class="menu-item-price">179 kr</span>
         </div>
         <div class="menu-item-description">
-          100g smashburgare serveras med bröd, sallad, silverlök, ost och husets dressing. <br><em>Tillval: Extra kött 100g – 35 kr.</em>
+          100g smashburgare serveras med bröd, sallad, silverlök, ost och husets dressing. Serveras med pommes. <br><em>Tillval: Extra kött 100g – 35 kr.</em>
         </div>
       </div>
 
@@ -238,7 +243,7 @@
           <span class="menu-item-price">172 kr</span>
         </div>
         <div class="menu-item-description">
-          Halloumi, bröd, husets dressing, sallad och silverlök.
+          Halloumi, bröd, husets dressing, sallad och silverlök. Serveras med pommes.
         </div>
       </div>
 
@@ -521,7 +526,7 @@
           <span class="menu-item-price">156 kr / 580 kr</span>
         </div>
         <div class="menu-item-description">
-          Ett friskt och fruktigt vin med inslag av gröna äpplen, vit persika, honungsmelon och lime.
+          Fylligt vin med intensiva aromer av mogna körsbär, plommon och kryddor. 
         </div>
       </div>
 
@@ -577,14 +582,6 @@
 
     <div class="menu-section">
       <div class="menu-section-title">Öl & Cider på flaska</div>
-      <div class="menu-item">
-        <div class="menu-item-header">
-          <span class="menu-item-name">Bygdens Lager (SWE)</span>
-          <span class="menu-item-dots"></span>
-          <span class="menu-item-price">76 kr</span>
-        </div>
-      </div>
-
       <div class="menu-item">
         <div class="menu-item-header">
           <span class="menu-item-name">Peroni (ITA)</span>
@@ -657,6 +654,22 @@
           <span class="menu-item-price">59 kr</span>
         </div>
       </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Espresso singel / dubbel</span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">32 / 41 kr</span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Cappuccino</span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">47 kr</span>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -727,7 +740,7 @@
           <span class="menu-item-price">179 kr</span>
         </div>
         <div class="menu-item-description">
-          100g smash burger served with bun, lettuce, silver onion, cheese, and house dressing. <br><em>Optional: Extra meat 100g – 35 kr.</em>
+          100g smash burger served with bun, lettuce, silver onion, cheese, with our own dressing. Served with fries. <br><em>Optional: Extra meat 100g – 35 kr.</em>
         </div>
       </div>
 
@@ -738,7 +751,7 @@
           <span class="menu-item-price">169 kr</span>
         </div>
         <div class="menu-item-description">
-          Classic swedish meatballs, potatoes, gravy, pickled cucumber and lingonberries
+          Classic Swedish meatballs, potatoes, gravy, pickled cucumber and lingonberries.
         </div>
       </div>
 
@@ -749,7 +762,7 @@
           <span class="menu-item-price">172 kr</span>
         </div>
         <div class="menu-item-description">
-          Halloumi, bun, house dressing, lettuce, and silver onion.
+          Halloumi, bun, house dressing, lettuce, and silver onion. Served with fries.
         </div>
       </div>
 
@@ -1024,7 +1037,7 @@
           <span class="menu-item-price">156 kr / 580 kr</span>
         </div>
         <div class="menu-item-description">
-          A fresh and fruity wine with hints of green apples, white peach, honeydew melon, and lime.
+          A full-bodied wine with aromas of cherries, plum and spices.
         </div>
       </div>
 
@@ -1083,14 +1096,6 @@
     <!-- Bottled Beer & Cider -->
     <div class="menu-section">
       <div class="menu-section-title">Bottled Beer &amp; Cider</div>
-
-      <div class="menu-item">
-        <div class="menu-item-header">
-          <span class="menu-item-name">Bygdens Lager (SWE)</span>
-          <span class="menu-item-dots"></span>
-          <span class="menu-item-price">76 kr</span>
-        </div>
-      </div>
 
       <div class="menu-item">
         <div class="menu-item-header">
@@ -1166,6 +1171,23 @@
           <span class="menu-item-price">59 kr</span>
         </div>
       </div>
-</body>
 
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Espresso single / double </span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">32 / 41 kr</span>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <div class="menu-item-header">
+          <span class="menu-item-name">Cappuccino</span>
+          <span class="menu-item-dots"></span>
+          <span class="menu-item-price">47 kr</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
