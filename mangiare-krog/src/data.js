@@ -55,6 +55,7 @@ export const translations = {
     address: "Address",
     hours: "Opening Hours",
     hoursText1: "Available on our social media-channels",
+    partners: "Partners",
     menu: "Menu",
     menupage: '/meny.pdf#page=8'
   }
