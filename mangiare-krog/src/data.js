@@ -26,8 +26,6 @@ export const translations = {
     hours: "Öppettider",
     hoursText1: "Finns på våra sociala medier",
     partners: "Samarbetspartners",
-    menu: "Meny",
-    menupage: '/meny.pdf#page=1'
   },
   en: {
     heroTitle: "Mangiare",
@@ -56,7 +54,5 @@ export const translations = {
     hours: "Opening Hours",
     hoursText1: "Available on our social media-channels",
     partners: "Partners",
-    menu: "Menu",
-    menupage: '/meny.pdf#page=8'
   }
 };
